@@ -1,5 +1,7 @@
 # Claude Cowork mit Langdock verbinden
 
+> **UPDATE:** Langdock hat auf Anfrage mitgeteilt, dass ihre API **nicht** als Gateway für Claude Cowork/Code fungieren soll. Ich gehe dementsprechend davon aus, dass sie Anfragen für Rate-Limit-Erhöhungen, die für agentisches Arbeiten erforderlich wären, regelmäßig ablehnen werden.
+
 Diese Anleitung zeigt Schritt für Schritt, wie man **Claude Cowork** so einrichtet, dass die Inferenz über den
 **EU-Gateway von Langdock** (deutsches Unternehmen, EU-Hosting, stellt Berufsverschwiegenheitsvereinbarung zur Verfügung (§ 43e Abs. 3 BRAO)) läuft. Das tatsächliche Backend auf Langdock-Seite muss dafür je nach Modell und Vereinbarung **AWS Bedrock oder Google Vertex** sein. Das ist mit Langdock zwingend vor der Nutzung abzustimmen.
 
